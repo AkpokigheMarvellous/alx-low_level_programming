@@ -1,1 +1,1 @@
-Writing my first hello world
+My first C programming
