@@ -7,7 +7,7 @@
  * @b: the desired value
  * @n: number of bytes to be changed
  *
- * Return: a pointer to memory areas
+ * Return: a pointer to memory area s
  */
 
 char *_memset(char *s, char b, unsigned int n)
