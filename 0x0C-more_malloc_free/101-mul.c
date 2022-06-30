@@ -1,8 +1,3 @@
-/*
- * File: 101-mul.c
- * Auth: Akpokighe O. Marvellous
- */
-
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -226,9 +221,9 @@ int main(int argc, char *argv[])
 	for (index = 0; final_prod[index]; index++)
 	{
 		if (final_prod[index] != 'x')
-			putchar(final_prod[index]);
+			_putchar(final_prod[index]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	free(next_prod);
 	free(final_prod);
