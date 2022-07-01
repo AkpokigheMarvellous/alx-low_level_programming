@@ -1,4 +1,11 @@
+/*
+ * File: 101-mul.c
+ * Auth: Akpokighe Marvellous O.
+ */
+
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 int find_len(char *str);
 char *create_xarray(int size);
